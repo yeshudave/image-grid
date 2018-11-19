@@ -72,6 +72,10 @@ img {
 
 @media only screen and (min-width: 60em) {
 
+  .photo:nth-child(1) {
+    width: 100%;
+  }
+
   .photo:nth-child(2) {
     width: 33.333%;
   }
@@ -86,6 +90,31 @@ img {
 
   .photo:nth-child(5) {
     display: none;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .photo:nth-child(1) {
+    width: 66.666%;
+  }
+
+  .photo:nth-child(2) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(3) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(4) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(5) {
+    display: block;
+    width: 33.333%;
   }
 
 }

@@ -69,3 +69,23 @@ img {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  .photo:nth-child(2) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(3) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(4) {
+    width: 33.333%;
+  }
+
+  .photo:nth-child(5) {
+    display: none;
+  }
+
+}
